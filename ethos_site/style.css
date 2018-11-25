@@ -30,12 +30,6 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
-@font-face {
-     font-family: Museo300-Regular;
-     src: url('fonts/Museo300-Regular.otf');
-}
-
-
 body,
 html {
 	overflow-x:hidden;
@@ -77,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Museo300-Regular';
+	font-family: 'Museo';
 	font-weight: 700;
 	margin-top: 0;
 }
