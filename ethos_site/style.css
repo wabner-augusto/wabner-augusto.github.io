@@ -1,8 +1,7 @@
 
 /*
-Template Name: Eventoz
-Author: MarkUps
-Author URI: http://www.markups.io/
+Template Name: Ethos Universidade
+Author: Laís Coronato
 Version: 1.0
 */
 
@@ -30,6 +29,15 @@ Version: 1.0
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
+
+@font-face { /* declareando fonts */
+	font-family: "MuseoLight";
+	src: url("fonts/Museo300-Regular.eot");
+	src: local("Museo 300"), local("Museo-300"),
+		url("fonts/Museo300-Regular.woff") format("woff"),
+		url("fonts/Museo300-Regular.otf") format("opentype"),
+		url("fonts/Museo300-Regular.svg#Museo-300") format("svg");
+		}
 
 body,
 html {
