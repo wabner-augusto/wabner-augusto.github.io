@@ -30,13 +30,11 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
-.font-face {
-    font-family: 'Museo-Regular';
-    src: url('fonts/Museo-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Museo-Regular-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+@font-face {
+     font-family: Museo300-Regular;
+     src: url('fonts/Museo300-Regular.otf');
 }
+
 
 body,
 html {
@@ -79,7 +77,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Museo', sans-serif;
+	font-family: 'Museo300-Regular', sans-serif;
+	src: url('fonts/Museo300-Regular.otf');
 	font-weight: 700;
 	margin-top: 0;
 }
