@@ -30,14 +30,22 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
-@font-face { /* declareando fonts */
-	font-family: "MuseoLight";
-	src: url("fonts/Museo300-Regular.eot");
-	src: local("Museo 300"), local("Museo-300"),
-		url("fonts/Museo300-Regular.woff") format("woff"),
-		url("fonts/Museo300-Regular.otf") format("opentype"),
-		url("fonts/Museo300-Regular.svg#Museo-300") format("svg");
-		}
+@font-face {
+    font-family: 'Museo700-Regular';
+    src: url('fonts/Museo700-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Museo700-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo300-Regular';
+    src: url('fonts/Museo300-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Museo300-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body,
 html {
