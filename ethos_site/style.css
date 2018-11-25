@@ -30,11 +30,11 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
-@font-face {
-    font-family: 'Museo700-Regular';
-    src: url('fonts/Museo700-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Museo700-Regular-webfont.woff') format('woff');
-    font-weight: normal;
+.font-face {
+    font-family: 'Museo-Regular';
+    src: url('fonts/Museo-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Museo-Regular-webfont.woff') format('woff');
+    font-weight: 700;
     font-style: normal;
 }
 
