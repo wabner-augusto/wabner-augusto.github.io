@@ -29,6 +29,12 @@ Version: 1.0
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
+@font-face {
+    font-family: 'museo';
+    src: url(data:fonts/museo;charset=utf-8;base64,<<copied base64 string>>) format('museo');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body,
 html {
