@@ -299,11 +299,13 @@ button:focus {
 }
 
 .mu-hero-featured-content {
-	display: inline;
-	float: right;
-	margin-top: 50px;
-	text-align: center;
-	width: 100%;
+  display: inline;
+  float: right;
+  margin-top: 50px;
+  padding-top: 210px;
+  padding-bottom: 90px;
+  text-align: center;
+  width: 100%;
 }
 
 .mu-hero-featured-content h1 {
